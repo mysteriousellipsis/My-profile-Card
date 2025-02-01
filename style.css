@@ -26,10 +26,33 @@ body {
   -o-border-radius: 30px;
 }
 
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #4DABF7
+}
+
 .profile-content {
-  display: flex;  
+  display: grid;
+  gap: 2rem;
 }
 
 .profile-header {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.profile-details {
+  display: flex;
+}
+
+.bwu-quote {
+  display: flex;
+}
+
+.profile-about {
   display: flex;
 }
